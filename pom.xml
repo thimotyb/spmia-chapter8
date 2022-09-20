@@ -30,7 +30,7 @@
         <artifactId>docker-maven-plugin</artifactId>
         <version>0.4.10</version>
         <configuration>
-        <baseImage>java</baseImage>
+        <baseImage>alpine</baseImage>
         <imageName>example</imageName>
       </configuration>
       </plugin>
